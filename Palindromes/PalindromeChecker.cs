@@ -31,7 +31,7 @@ namespace Palindromes
 
                 while (!char.IsLetterOrDigit(b))
                 {
-                    max++;
+                    max--;
                     if (min > max)
                     {
                         return true;
